@@ -1,0 +1,97 @@
+.logo-center {
+    position: relative;
+    top: 10px;
+}
+header {
+    background: url(Images/Img6.jpg);
+    height: 400px !important;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;                  /*align-items: inside backround*/
+    display: flex;                       /*align-items: horizontally and vetically*/
+    justify-content: center;             /*align-items: horizontally margin properly distributed*/
+    align-items: center;                 /*align-items: vertically margin properly distributed*/
+}
+.Slogan h2 {
+    line-height: 0.5; /* Adjust line spacing of header2 */
+}
+#dropdown1 a {
+    color: black; /* Font color */
+}
+/*------------------Card Area------------------------------------------*/
+.card {
+    width: 105%; /* Adjust the width as needed */
+    height: 350px;
+    display: flex; /* Use flexbox to center content vertically and horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */ 
+    margin: 0; /**/
+}
+.card:hover {
+    background-color: #70706f; /* Highlighted background color on hover */
+    color: white;
+    box-shadow: 0 30px 20px 0  rgba(0, 0, 0, 0.3);                                                                                                  
+}
+.card a {
+    color: rgb(51, 51, 248); 
+    font-family: 'Times New Roman', Times, serif;    
+    font-size:3vh;                                                                                                          
+}
+.card:hover a {
+    background-color: #70706f; /* Highlighted background color on hover */
+    color: white; 
+    text-decoration: underline;                                                                                                              
+}
+/*-----------------Parallax Area------------------------------------------*/
+.parallax-container {
+    height: 300px !important; /* Set the height of the parallax row */
+    text-align: left;                  /*align-items: inside container*/
+    justify-content: center;             /*align-items: horizontally margin properly distributed*/
+    align-items: center;                  /*align-items: vertically margin properly distributed*/
+    display: flex;                        /*align-items: horizontally and verticall*/
+}
+@media (max-width: 768px) {
+    .parallax-container {
+        height: 600px !important; /* Increase the height for small screens with s12 grid */
+    }
+}
+.custom-list li::before {
+    content: "\2714"; /* Unicode checkmark character */
+    color: blue; /* Change the color to your desired color */
+    margin-right: 8px; /* Add spacing between the checkmark and the text */
+}
+.custom-list li {
+    display: flex;
+    white-space: pre-wrap;  /* avoid overflow on before unicode chekckmark */
+}
+/*-----------------Carousel Area------------------------------------------*/
+.carousel {
+    height: 200px !important;
+    /*margin: 0 auto; /* Horizontally center the carousel */
+    /*max-width: 100%; /* Ensure the carousel doesn't exceed its parent's width */
+}
+.carousel-item img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    /*left: 50%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
